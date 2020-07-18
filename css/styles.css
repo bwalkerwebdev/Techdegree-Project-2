@@ -1,0 +1,17 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+nav {
+    font-weight: 600;
+    text-transform: uppercase;
+}
