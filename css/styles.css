@@ -9,7 +9,13 @@ img {
 
 li {
     list-style: none;
+    padding-bottom: 10px;
 }
+
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+  }
 
 nav {
     font-weight: 600;
