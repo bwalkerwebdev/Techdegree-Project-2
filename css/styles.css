@@ -36,7 +36,7 @@ h2 {
 }
 
 h2,
-#top {
+.top {
     text-transform: uppercase;
 }
 
@@ -64,7 +64,9 @@ a:hover {
 }
 
 footer {
-    border-top: 10px rgb(89, 88, 88);
+    border-top: solid 1px rgb(89, 88, 88);
+    padding-top: 25px;
+    font-weight: 700;
 }
 
 .alignleft {
