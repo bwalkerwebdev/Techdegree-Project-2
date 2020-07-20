@@ -58,11 +58,6 @@ a:hover {
     color: rgb(89, 88, 88);
 }
 
-.portfolio-container {
-    padding-top: 10%;
-    padding-bottom: 10%;
-}
-
 footer {
     border-top: solid 1px rgb(89, 88, 88);
     padding-top: 25px;
@@ -140,5 +135,27 @@ footer {
     .profile-pic {
         padding-left: 30px;
     }
+}
+
+@media (min-width: 1024px){
+    #header {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 60px;
+    }
+
+    #top {
+        margin: 0px;
+    }
+
+    li {
+        padding-bottom: 0px;
+    }
+
+    .project {
+        float: left;
+        width: 30%;
+        padding-right: 10px;
+        padding-left: 10px;
 }
 
