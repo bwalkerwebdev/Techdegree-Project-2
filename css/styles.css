@@ -76,25 +76,69 @@ footer {
 	float: right;
 }
 
+.nav-footer {
+    display: none;
+}
+
+.section-1 {
+    padding-bottom: 75px;
+}
+
+#portfolio {
+    padding-bottom: 35px;
+}
+
 /* Media Queries */
 
 @media (min-width: 768px){
     .bio {
         text-align: left;
+        font-size: 1.25em;
     }
 
     li {
         display: inline-block;
         padding-left: 20px;
     }
-    
+
     .section-1 {
         display: flex;
         flex-direction: row-reverse;
     }
 
-    .profile-pic {
+    .project {
+        float: left;
+        width: 45%;
+        padding-right: 10px;
         padding-left: 10px;
-        width: 50%;
+    }
+
+    .portfolio-text {
+        padding: 15px 25px;
+    }
+
+    .contact-container {
+        max-width: 60%;
+        margin: auto;
+    }
+    
+    .top {
+        display: none;
+    }
+
+    .nav-footer {
+        display: flex;
+        float: right;
+        margin: auto;
+        padding: 0;
+    }
+
+    .ul-footer {
+        margin: 0;
+    }
+
+    .profile-pic {
+        padding-left: 30px;
     }
 }
+
