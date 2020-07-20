@@ -75,3 +75,26 @@ footer {
 .alignright {
 	float: right;
 }
+
+/* Media Queries */
+
+@media (min-width: 768px){
+    .bio {
+        text-align: left;
+    }
+
+    li {
+        display: inline-block;
+        padding-left: 20px;
+    }
+    
+    .section-1 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .profile-pic {
+        padding-left: 10px;
+        width: 50%;
+    }
+}
