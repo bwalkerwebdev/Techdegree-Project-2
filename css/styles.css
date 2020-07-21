@@ -4,6 +4,11 @@
     color: rgb(102, 102, 102);
 }
 
+#wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
 body {
     padding: 5%;
 }
@@ -158,4 +163,3 @@ footer {
         padding-right: 10px;
         padding-left: 10px;
 }
-
