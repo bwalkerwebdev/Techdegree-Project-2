@@ -98,9 +98,14 @@ footer {
 /* Media Queries */
 
 @media (min-width: 768px){
+    #wrapper {
+        width: 85%;
+        margin: 0 auto;
+    }
+    
     .bio {
         text-align: left;
-        font-size: 1.25em;
+        font-size: 1.15em;
     }
 
     li {
