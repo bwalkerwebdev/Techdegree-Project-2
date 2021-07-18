@@ -1,0 +1,19 @@
+{
+  "name": "techdegree-project-2",
+  "version": "1.0.0",
+  "description": "A mobile-first responsive webpage. Notice the changing position of the navigation menu and other page elements when the window is resized. CSS Elements include floats and media query breakpoints. Project two of Treehouse Techdegree.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bwalkerwebdev/Techdegree-Project-2.git"
+  },
+  "author": "Brian Walker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bwalkerwebdev/Techdegree-Project-2/issues"
+  },
+  "homepage": "https://github.com/bwalkerwebdev/Techdegree-Project-2#readme"
+}
